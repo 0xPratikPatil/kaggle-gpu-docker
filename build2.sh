@@ -1,6 +1,6 @@
 #!/bin/bash
 PROJECT_PATH=/kaggle/working
-PASSWORD=<password of your jupyterlab>
+PASSWORD=jupiter123
 docker run --rm -it --gpus=all \
     -v .:/kaggle \
     -v $PROJECT_PATH/.cache/torch:/root/.cache/torch \
